@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: purple violet;
+}
+
+.auth-container {
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: blueviolet;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+/*
+.dashboard-container {
+    padding: 20px;
+    background: olivedrab;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+*/
+
+
+
+/*
+.nav-links {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.nav-links button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links button:hover {
+    background-color: palevioletred;
+}
+*/
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-links button {
+    margin: 0 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    justify-self: space-around;
+}
+
+.nav-links button.active {
+    background-color: #0056b3;
+}
+
+.nav-links button:hover {
+    background-color: #0056b3;
+}
+
+.nav-links button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: palevioletred;
+}
+
+.edit {
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: violet;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: #e0a800;
+}
+
+.delete {
+    background-color: palevioletred;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: violet;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: pink;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .auth-container, .dashboard-container {
+        width: 90%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+
+
+
+.product-management-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.product-management-buttons button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-management-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.product-management-buttons button.sell {
+    background-color: #28a745;
+}
+
+.product-management-buttons button.sell:hover {
+    background-color: #218838;
+}
+
+.product-management-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.product-management-table th,
+.product-management-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.product-management-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.product-management-table td.low-stock {
+    background-color: #dc3545;
+    color: white;
+}
+
+.product-management-table .edit,
+.product-management-table .delete {
+    background-color: rgb(64, 16, 254);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+.product-management-table .edit:hover,
+.product-management-table .delete:hover {
+    background-color: #0056b3;
+}
+
+
